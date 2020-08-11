@@ -243,14 +243,14 @@
 /turf/closed/wall/indestructible/splashscreen
 	name = "Space Station 13"
 	icon = 'icons/misc/title.dmi'
-	icon_state = "title_painting1"
+	icon_state = "title_painting0"
 //	icon_state = "title_holiday"
 	layer = FLY_LAYER
 
 /turf/closed/wall/indestructible/splashscreen/New()
 	..()
-	if(icon_state == "title_painting1")
-		icon_state = "title_painting[rand(1,11)]"
+	if(icon_state == "title_painting0")
+		icon_state = "title_painting0"//[rand(1,11)]"
 
 /turf/closed/wall/indestructible/other
 	icon_state = "r_wall"
